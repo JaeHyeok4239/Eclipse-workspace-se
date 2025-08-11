@@ -1,3 +1,4 @@
+ 
 
 public class AcademyMemberArrayMain {
 
@@ -40,6 +41,6 @@ public class AcademyMemberArrayMain {
 	
 	
 	
-	}
+	} 
 
 }

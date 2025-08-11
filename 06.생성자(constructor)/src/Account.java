@@ -1,12 +1,41 @@
 
 public class Account {
+	/**
+	 * 은행에서 계좌객체를 생성할 클래스
+	 * @author 김수한무거북이
+	 * @version 0.001
+	 */
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	/*
 	 * 생성자 메쏘드
+	 */
+	/**
+	 * 기본값으로 초기화된 Account 객체생성
 	 */
 
 	public Account() {
 		
 	}
+	/**
+	 * 매개변수값으로 초기화된 객체생성
+	 * @param no 계좌번호
+	 * @param owner 계좌주
+	 * @param balance 계좌잔고
+	 * @param iyul 계좌이율
+	 */
 	public Account(int no, String owner, int balance, double iyul) {
 		super();
 		this.no = no;
@@ -33,6 +62,13 @@ public class Account {
 	/*
 	 * 계좌데이타대입
 	 */
+	/**
+	 * 계좌 데이터 대입
+	 * @param no 계좌번호
+	 * @param owner 계좌주
+	 * @param balance 계좌잔고
+	 * @param iyul 계좌이율
+	 */
 	public void setAccount(int no,String owner,int balance,double iyul) {
 		this.no=no;
 		this.owner=owner;
@@ -41,6 +77,10 @@ public class Account {
 	}
 	/*
 	 * 입금
+	 */
+	/**
+	 * 입금
+	 * @param money 입금할 돈
 	 */
 	public void deposit(int money) {
 		this.balance=this.balance+money;
@@ -86,6 +126,10 @@ public class Account {
 	public void setOwner(String owner) {
 		this.owner = owner;
 	}
+	/**
+	 * 잔고반환 
+	 * @return 잔고
+	 */
 	public int getBalance() {
 		return balance;
 	}

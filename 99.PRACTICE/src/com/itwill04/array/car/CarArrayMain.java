@@ -68,7 +68,7 @@ public class CarArrayMain {
 		 */
 		for (int i = 0; i < carArray.length; i++) {
 			if(carArray[i]!=null && carArray[i].getNo().equals("2389")) {
-				carArray[i].setOutTime(19);
+				carArray[i].setOutTime(18);
 				carArray[i].calculateFee();
 				carArray[i].print();
 				carArray[i]=null;

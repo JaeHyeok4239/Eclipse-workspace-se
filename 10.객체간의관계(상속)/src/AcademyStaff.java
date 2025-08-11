@@ -10,6 +10,14 @@ public class AcademyStaff extends AcademyMember {
     public void staffPrint(){
     }
 
+	public String getDepart() {
+		return depart;
+	}
+
+	public void setDepart(String depart) {
+		this.depart = depart;
+	}
+
 }
 
 
