@@ -6,11 +6,12 @@ public class BookLibraryMain {
 		/*
 		 * 회원객체생성
 		 */
-	
-		/*
+		BookMember bookMember = new BookMember(1, "장재혁", "010-9999-9999", null  );
+	/*
 		 * 책객체생성
 		 */
-	
+		Book book = new Book(1, "혼자", "공부하는", "자바");
+
 		/*
 		 * 회원이 책들 대여
 		 * 
@@ -21,7 +22,13 @@ public class BookLibraryMain {
 		 * 회원정보출력(회원정보와 회원이 빌린책들 정보출력)
 		 */
 		
+	
+		bookMember.setBook(book);
 		
+		
+		System.out.println("회원이 빌린책");
+		bookMember.print();
+	
 	}
 
 }

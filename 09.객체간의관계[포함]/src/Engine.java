@@ -1,40 +1,16 @@
 public class Engine {
-	private String type; //엔진타입
-	private int cc; 		//엔진배기량
-
+    private String type;	//엔진타입
+    private int cc;		//엔진배기량
     public Engine(){
     }
-
     public Engine(String type, int cc) {
-		super();
 		this.type = type;
 		this.cc = cc;
 	}
-    
-    
-	public void print(){
-    
-	System.out.println(this.type+"\t"+this.cc);
-	
-	
-
-
-	}
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-	public String getType() {
+    public void print(){
+    		System.out.println(this.type+"\t"+this.cc);
+    }
+    public String getType() {
 		return type;
 	}
 
@@ -49,4 +25,7 @@ public class Engine {
 	public void setCc(int cc) {
 		this.cc = cc;
 	}
+
+	
+
 }

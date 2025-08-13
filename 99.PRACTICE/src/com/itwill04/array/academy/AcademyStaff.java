@@ -1,0 +1,23 @@
+package com.itwill04.array.academy;
+
+public class AcademyStaff extends AcademyMember {
+	  private String depart; // 부서
+
+	    public AcademyStaff(int no, String name, String depart) {
+	        super(no, name);
+	        this.depart = depart;
+	    }
+
+	    public String getDepart() {
+	        return depart;
+	    }
+
+	    public void setDepart(String depart) {
+	        this.depart = depart;
+	    }
+
+	    @Override
+	    public String toString() {
+	        return super.toString() + "\t[Staff] 부서: " + depart;
+	    }
+	}
