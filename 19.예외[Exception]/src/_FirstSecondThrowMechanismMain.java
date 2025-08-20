@@ -15,7 +15,7 @@ public class _FirstSecondThrowMechanismMain {
 		
 		System.out.println("3.main 실행흐름 first.method1()에 호출 후");
 
-		System.out.println("4.main 실행흐름 JVM");
+		System.out.println("4.main 실행흐름 JVM 반환");
 		
 		return;
 		
